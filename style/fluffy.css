@@ -1,0 +1,149 @@
+body {
+    font-family: Avenir Next, serif;
+    color: #13253A;
+}
+
+header {
+    background-color: #F2F2F2;
+}
+
+.header-block {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-block__logo {
+    display: flex;
+    flex: 500 500px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: Semi bold;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.header-block__container {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-block__container--card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+.header-block__container--card-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header-block__container--card-color {
+    color: #2557AB;
+    position: relative;
+    top: 50px;
+}
+
+.header-block__container--image {
+    padding-left: 50px;
+}
+
+.header-block__button {
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #FF7F57;
+    color: #FFFFFF;
+    font-weight: semi bold;
+    font-size: 17px;
+    border: 0px;
+}
+
+.agency {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.agency-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.agency-title--color {
+    color: #2557AB;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+}
+
+.agency-block {
+    display: flex;
+    flex: 4 4 4;
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.agency-block__card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.agency-block__card--title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.agency-block__card--description {
+    font-size: 16px;
+    align-items: center;
+}
+
+.experience {
+    display: flex;
+    flex: 4 4 4px;
+    background-color: #F4F6F7;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+
+.experience-title {
+    display: flex;
+    font-size: 36px;
+    flex-direction: column;
+}
+
+.experience-title--color {
+    color: #FF7F57;
+    font-size: 36px;
+}
+
+.experience-description {
+    color: #2557AB;
+    font-size: 16px;
+    font-weight: medium;
+    position: relative;
+    bottom: 40px;
+}

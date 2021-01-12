@@ -20,103 +20,111 @@ header {
     justify-content: space-between;
 }
 
+.header-menu a {
+    color: #13253A;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: Demi bold;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #ffcc22;
+}
+
+
+}
 ul {
     list-style-type: none;
     font-size: 16px;
     font-weight: Semi bold;
     text-align: right;
 }
-
 li {
     display: inline;
     justify-content: space-between;
     margin: 0 20px;
 }
-
 .header-block__container {
     display: flex;
     margin-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
 }
-
 .header-block__container--card {
     display: flex;
     flex-direction: column;
     justify-items: center;
     justify-content: center;
 }
-
 .header-block__container--card-title {
     font-size: 36px;
     font-weight: bold;
 }
-
 .header-block__container--card-color {
     color: #2557AB;
     position: relative;
     top: 50px;
 }
-
 .header-block__container--image {
     padding-left: 50px;
 }
-
 .header-block__button {
     width: 300px;
     height: 60px;
     margin-top: 20px;
     background-color: #FF7F57;
     color: #FFFFFF;
-    font-weight: semi bold;
+    font-weight: Demi bold;
     font-size: 17px;
     border: 0px;
 }
+.header-block__button:hover {
+    color: #ffcc22;
+    background-color: floralwhite;
+}
 
-.agency {
+/* Sevice block */
+.service {
     text-align: center;
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
 }
-
-.agency-title {
+.service-title {
     font-size: 30px;
     margin-bottom: 20px;
 }
-
-.agency-title--color {
+.service-title--color {
     color: #2557AB;
     font-size: 16px;
     position: relative;
     top: 20px;
 }
-
-.agency-block {
+.service-block {
     display: flex;
     flex: 4 4 4;
     justify-content: space-between;
     margin: 0 20px;
     align-items: center;
 }
-
-.agency-block__card {
+.service-block__card {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
 }
-
-.agency-block__card--title {
+.service-block__card--title {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
 }
-
-.agency-block__card--description {
+.service-block__card--description {
     font-size: 16px;
     align-items: center;
 }
 
+/* Information of experience */
 .experience {
     display: flex;
     flex: 4 4 4px;
@@ -128,22 +136,208 @@ li {
     position: relative;
     justify-content: center;
 }
-
 .experience-title {
     display: flex;
     font-size: 36px;
     flex-direction: column;
 }
-
 .experience-title--color {
     color: #FF7F57;
     font-size: 36px;
 }
-
 .experience-description {
     color: #2557AB;
     font-size: 16px;
     font-weight: medium;
     position: relative;
     bottom: 40px;
+}
+
+/* About us block */
+.aboutus {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.aboutus--title {
+    display: flex;
+    font-size: 36px;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+}
+.aboutus--color {
+    font-size: 16px;
+    color: #2557AB;
+    position: relative;
+    top: 65px;
+}
+.aboutus-block {
+    display: flex;
+    flex: 5 7;
+    justify-content: center;
+    align-items: left;
+}
+.aboutus-block__card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+.aboutus-block__card--style {
+    font-style: italic;
+    font-size: 20px;
+}
+.aboutus-block__card--description {
+    font-size: 16px;
+}
+.aboutus-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.aboutus-separator {
+    color: #DCE2E6;
+    margin-top: 50px;
+}
+
+/* Relaxing block */
+.relax-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+.relax-card--title {
+    font-size: 38px;
+    font-weight: bold;
+}
+.relax-card--description {
+    font-size: 16px;
+}
+.relax-card--description-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.relax-card--image {
+    align-items: flex-end;
+    padding-left: 50px;
+}
+
+/* Agency Section */
+.agency-help {
+    background-color: #FF7F57;
+    color: #F4F6F7;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+.agency-help--title {
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.agency-help--title-note {
+    font-size: 16px;
+    font-weight: medium;
+    position: relative;
+    top: 40px;
+}
+.agency-help--description {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.agency-help--button {
+    background-color: #2557AB;
+    width: 300px;
+    height: 60px;
+    color: #FFFFFF;
+    box-shadow: 0 20px 20px -20px black;
+    border: 0px;
+    font-size: 17px;
+    font-weight: Demi bold;
+}
+.agency-help--button:hover {
+    color: #ffcc22;
+    background-color: floralwhite;
+}
+
+/*  Form Section  */
+.form {
+    background-color: #11364E;
+    padding-top: 50px;
+    padding-left: 425px;
+    padding-right: 425px;
+    padding-bottom: 100px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+.form-title {
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.form-intput--style {
+    width: 370px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: medium;
+    color: #FFFFFF;
+    background-color: #11364E;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.form-input--message {
+    width: 370px;
+    height: 120px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: medium;
+    background-color: #11364E;
+    border-width: 0 0 0 0px;
+    color: #FFFFFF;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.form-intput--style:focus {
+    background-color: whitesmoke;
+    color: black;
+}
+.form-button {
+    width: 370px;
+    height: 60px;
+    font-size: 16px;
+    background-color: #FF7F57;
+    color: #FFFFFF;
+    border: 0px;
+    font-size: 17px;
+    font-weight: demi bold;
+}
+.form-button:hover {
+    background-color: floralwhite;
+    color: goldenrod;
+}
+
+/* Footer */
+.footer {
+    background-color: #13253A;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
 }

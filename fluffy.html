@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/fluffy.css">
     <link rel="stylesheet" href="style/aboutus.css">
     <link rel="stylesheet" href="style/agency-help.css">
-    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/form.css">
 </head>
 <style>
 
@@ -21,13 +21,13 @@
         <div class="header-block">
             <div class="header-block header-block__logo">
                 <img src="/image/logo.png" alt="logo">
-                <div>
+                <nav class="header-menu">
                     <ul>
-                        <li>Sevices</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li class="main-menu__item"><a href="#">Our clients</a></li>
+                        <li class="main-menu__item"><a href="#">Products</a></li>
+                        <li class="main-menu__item"><a href="#">Contact</a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
 
@@ -44,26 +44,26 @@
         </div>
     </header>
 
-    <section class="agency">
-        <div class="agency-title">
-            <p class="agency-title--color">Our Services</p>
-            <p class="agency-title" style="display: inline;">Why choose Agency theme</p>
+    <section class="service">
+        <div class="service-title">
+            <p class="service-title--color">Our Services</p>
+            <p class="service-title" style="display: inline;">Why choose Agency theme</p>
         </div>
-        <div class="agency-block">
-            <div class="agency-block agency-block__card">
+        <div class="service-block">
+            <div class="service-block service-block__card">
                 <img src="/icon/icon-ultra-responsive.png" alt="icon-ultra-responsive" style="width: 64px;">
-                <b class="agency-block__card--title">Ultra Responsive</b>
-                <p class="agency-block__card--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit in erat nec fermentum vestibulum.</p>
+                <b class="service-block__card--title">Ultra Responsive</b>
+                <p class="service-block__card--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit in erat nec fermentum vestibulum.</p>
             </div>
-            <div class="agency-block agency-block__card">
+            <div class="service-block agency-block__card">
                 <img src="/icon/icon-award-winning-design.png" alt="icon-award-winning-design">
-                <b class="agency-block__card--title">Award Winning Design</b>
-                <p class="agency-block__card--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit in erat nec fermentum. Aliquam rutrum vestibulum.</p>
+                <b class="service-block__card--title">Award Winning Design</b>
+                <p class="service-block__card--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit in erat nec fermentum. Aliquam rutrum vestibulum.</p>
             </div>
-            <div class="agency-block agency-block__card">
+            <div class="service-block agency-block__card">
                 <img src="/icon/icon-online-support.png" alt="icon-online-support">
-                <b class="agency-block__card--title">Support & Updates</b>
-                <p class="agency-block__card--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit in erat nec fermentum. Aliquam rutrum vestibulum.</p>
+                <b class="service-block__card--title">Support & Updates</b>
+                <p class="service-block__card--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit in erat nec fermentum. Aliquam rutrum vestibulum.</p>
             </div>
         </div>
     </section>
@@ -148,7 +148,7 @@
                 <label for="email">Your Email Address</label><br>
                 <input class="form-intput--style" type="email" id="email" name="email" value="hello@lastdoor.store" style="opacity: 0.2;"><br>
                 <label for="yourmessage">Your Message</label><br>
-                <textarea class="form-input--message" name="yourmessage" id="message" cols="30" rows="10" style="opacity: 0.2;">Type your message here...</textarea><br>
+                <textarea class="form-input--message form-intput--style" name="yourmessage" id="message" cols="30" rows="10" style="opacity: 0.2;">Type your message here...</textarea><br>
                 <button class="form-button">Submit Your Message</button>
             </fieldset>
         </form>

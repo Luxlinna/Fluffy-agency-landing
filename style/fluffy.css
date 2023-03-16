@@ -44,6 +44,9 @@ li {
     justify-content: space-between;
     margin: 0 20px;
 }
+.p__padding {
+    padding: 20px 0px 40px;
+}
 .header-block__container {
     display: flex;
     margin-top: 30px;
